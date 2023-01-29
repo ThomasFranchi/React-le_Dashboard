@@ -1,0 +1,16 @@
+.buttonRemove {
+    
+     background: url(../../img/icons8-trash-can-96.png) no-repeat center center  / cover; 
+     background-color:#e30615 ;
+     background-size: 20px;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.64);
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+

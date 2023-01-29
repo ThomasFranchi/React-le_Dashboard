@@ -1,0 +1,50 @@
+.listHead{
+    background-color: #e30615;
+    height: 50px;
+    margin: 20px 40px 0px 40px;
+    padding-left: 30px;
+    color: white;
+    font-weight: bold;
+ 
+
+}
+
+.listHead div, .listDarkGrey div, .listGrey div {
+    width: 350px;
+    text-align: left;
+}
+
+#last {
+    width: 100px;
+    text-align: left;
+
+}
+
+.listDarkGrey, .listGrey {
+height: 50px;
+margin: 0 40px;
+height: 60px;
+padding-left: 30px;
+}
+.listDarkGrey{
+    background-color:  #eaeaea;
+}
+
+.listGrey {
+    background-color: #f9f9f9;
+}
+
+.listHead, .listDarkGrey, .listGrey   {
+    display: flex;
+   align-items: center;
+   justify-content: flex-start;
+ 
+}
+
+
+.tableClass .buttonContainer {
+    display: flex;
+    margin: 0 0px;
+    justify-content: flex-start;
+    width: 100px;
+}

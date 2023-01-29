@@ -1,0 +1,36 @@
+.topnav {
+    background-color: #e30615;
+    display: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 60px;
+    box-shadow: 1px 0px 12px rgba(0, 0, 0, 0.64);
+}
+
+.userContainer {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoRond {
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    float: right;
+    margin: 12px 12px;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(255, 255, 255);
+    margin-right: 20px;
+  }

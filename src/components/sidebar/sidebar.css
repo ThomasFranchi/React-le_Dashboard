@@ -1,0 +1,108 @@
+.sidebarContainer {
+    display : flex;
+
+}
+
+.sidebar{ 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 260px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 11px;
+    box-shadow: 1px 0px 12px rgba(0, 0, 0, 0.64);
+    z-index: 100;
+}
+
+.sidebar p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.sidebar span {
+    color: #e30615 
+}
+
+.sidebar img {
+    width:50%
+}
+
+#par {
+    font-size: 16px;
+    color: black
+}
+
+.barRouge{
+    background-color: #e30615 ;
+    width: 50%;
+    height: 4px;
+    content: "";
+    margin: 20px;
+    
+}
+
+.sidebar .buttonContainer {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoPeople {
+    background: url(../../img/icons8-users-64.png) no-repeat center center  / cover; 
+    background-color:#000000 ;
+    border: none;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+}
+
+.logoStaff {
+    background: url(../../img/icons8-comment-67.png) no-repeat center center  / cover; 
+    background-color:#000000 ;
+    border: none;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.logoPeople:hover, .logoStaff:hover {
+    background-color:#e30615 ;
+}
+.menuElementContainer {
+    display: flex;
+    align-items: center;
+}
+
+.SideBarMenuElement {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px 0;
+    display: block;
+    width: 100%;
+    padding: 10px 0
+}
+
+.SideBarMenuElement:hover .logoStaff  {
+    background-color:#e30615 ;
+}
+
+.SideBarMenuElement:hover .logoPeople  {
+    background-color:#e30615 ;
+}
+
+.SideBarMenuElement:hover {
+    border-right: 12px solid #e30615;
+    color: #e30615;
+}

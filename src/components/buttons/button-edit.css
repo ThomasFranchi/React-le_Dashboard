@@ -1,0 +1,16 @@
+.buttonEdit {
+    
+    background: url(../../img/icons8-pencil-96.png) no-repeat center center  / cover; 
+    background-color:#e66e00 ;
+    background-size: 20px;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.64);
+    margin-top: 5px ;
+    margin-right: 0;
+    display: inline-block;
+}
+

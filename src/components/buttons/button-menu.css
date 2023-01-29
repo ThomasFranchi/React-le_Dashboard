@@ -1,0 +1,14 @@
+.buttonMenu {
+    font-weight: 800;
+    font-size: 26px;
+    margin: 10px;
+    width: 100%;
+}
+
+.buttonMenu:hover {
+border-right: 12px solid #e30615
+}
+
+.titre {
+    color: aqua;
+}

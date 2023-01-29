@@ -1,5 +1,12 @@
+body html {
+  margin: 0; 
+}
+
 .App {
   text-align: center;
+  display: flex;
+  align-items: flex-start;
+
 }
 
 .App-logo {
@@ -11,6 +18,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+#rightContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
 }
 
 .App-header {
